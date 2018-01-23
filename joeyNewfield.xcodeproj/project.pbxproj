@@ -15,6 +15,12 @@
 		847DC8602017338C00D27CE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DC85E2017338C00D27CE7 /* Main.storyboard */; };
 		847DC8622017338C00D27CE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847DC8612017338C00D27CE7 /* Assets.xcassets */; };
 		847DC8652017338C00D27CE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DC8632017338C00D27CE7 /* LaunchScreen.storyboard */; };
+		847DC8722017349600D27CE7 /* blackSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC86C2017349500D27CE7 /* blackSquare.png */; };
+		847DC8732017349600D27CE7 /* fastLaserSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 847DC86D2017349500D27CE7 /* fastLaserSound.mp3 */; };
+		847DC8742017349600D27CE7 /* whiteSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC86E2017349500D27CE7 /* whiteSquare.png */; };
+		847DC8752017349600D27CE7 /* blackLaserSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 847DC86F2017349600D27CE7 /* blackLaserSound.wav */; };
+		847DC8762017349600D27CE7 /* IAP_sample_screenshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 847DC8702017349600D27CE7 /* IAP_sample_screenshot.jpg */; };
+		847DC8772017349600D27CE7 /* spaceship1.png in Resources */ = {isa = PBXBuildFile; fileRef = 847DC8712017349600D27CE7 /* spaceship1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		847DC8612017338C00D27CE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847DC8642017338C00D27CE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847DC8662017338C00D27CE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847DC86C2017349500D27CE7 /* blackSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackSquare.png; sourceTree = "<group>"; };
+		847DC86D2017349500D27CE7 /* fastLaserSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fastLaserSound.mp3; sourceTree = "<group>"; };
+		847DC86E2017349500D27CE7 /* whiteSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteSquare.png; sourceTree = "<group>"; };
+		847DC86F2017349600D27CE7 /* blackLaserSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blackLaserSound.wav; sourceTree = "<group>"; };
+		847DC8702017349600D27CE7 /* IAP_sample_screenshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IAP_sample_screenshot.jpg; sourceTree = "<group>"; };
+		847DC8712017349600D27CE7 /* spaceship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 		847DC8532017338C00D27CE7 /* joeyNewfield */ = {
 			isa = PBXGroup;
 			children = (
+				847DC86F2017349600D27CE7 /* blackLaserSound.wav */,
+				847DC86C2017349500D27CE7 /* blackSquare.png */,
+				847DC86D2017349500D27CE7 /* fastLaserSound.mp3 */,
+				847DC8702017349600D27CE7 /* IAP_sample_screenshot.jpg */,
+				847DC8712017349600D27CE7 /* spaceship1.png */,
+				847DC86E2017349500D27CE7 /* whiteSquare.png */,
 				847DC8542017338C00D27CE7 /* AppDelegate.swift */,
 				847DC8562017338C00D27CE7 /* GameScene.sks */,
 				847DC8582017338C00D27CE7 /* Actions.sks */,
@@ -132,10 +150,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847DC8732017349600D27CE7 /* fastLaserSound.mp3 in Resources */,
 				847DC8602017338C00D27CE7 /* Main.storyboard in Resources */,
 				847DC8572017338C00D27CE7 /* GameScene.sks in Resources */,
 				847DC8622017338C00D27CE7 /* Assets.xcassets in Resources */,
+				847DC8742017349600D27CE7 /* whiteSquare.png in Resources */,
+				847DC8772017349600D27CE7 /* spaceship1.png in Resources */,
 				847DC8652017338C00D27CE7 /* LaunchScreen.storyboard in Resources */,
+				847DC8752017349600D27CE7 /* blackLaserSound.wav in Resources */,
+				847DC8722017349600D27CE7 /* blackSquare.png in Resources */,
+				847DC8762017349600D27CE7 /* IAP_sample_screenshot.jpg in Resources */,
 				847DC8592017338C00D27CE7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
